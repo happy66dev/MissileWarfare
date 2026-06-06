@@ -10,7 +10,6 @@ import me.kaiyan.missilewarfare.integrations.TownyLoader;
 import me.kaiyan.missilewarfare.integrations.WorldGuardLoader;
 import me.kaiyan.missilewarfare.util.PlayerID;
 import me.kaiyan.missilewarfare.util.Translations;
-import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.SingleLineChart;
 import org.bukkit.World;
@@ -126,10 +125,6 @@ public class MissileWarfare extends JavaPlugin implements SlimefunAddon {
         }.runTaskLater(this, 0);
 
         getServer().getPluginManager().registerEvents(new ExplosionEventListener(), this);
-
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build")) {
-            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "MissileWarfare", "master");
-        }
     }
 
     public static MissileWarfare getInstance(){

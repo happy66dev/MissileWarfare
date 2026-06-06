@@ -144,6 +144,3 @@ logging:
 other:
     # 清理盔甲架的周期（MC刻）
     cleanup-wait-time: 1200
-
-options:
-  auto-update: true
