@@ -1,4 +1,4 @@
-# MissileWarfare 导弹科技
+# MissileWarfare 导弹科技 [魔改版]
 
 ## 下载
 
@@ -34,4 +34,8 @@
 |--|--|--|
 |Original Author| pain.#2883 | [koiboi-dev](https://github.com/koiboi-dev) |
 | Current Maintainer and Developer | Colonel Kai#0001 | [ColonelKai](https://github.com/ColonelKai) |
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=happy66dev/MissileWarfare&type=Date)](https://star-history.com/#happy66dev/MissileWarfare&Date)
 
