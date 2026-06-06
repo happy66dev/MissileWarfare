@@ -30,6 +30,7 @@ import org.bukkit.util.Vector;
 
 import java.util.List;
 
+@SuppressWarnings("deprecation")
 public class AntiMissileLauncher extends SlimefunItem{
     public final int range = 40000;
 

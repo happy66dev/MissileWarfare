@@ -20,6 +20,7 @@ import org.bukkit.event.block.BlockRedstoneEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 
+@SuppressWarnings("deprecation")
 public class MissileRadar extends SlimefunItem {
     public MissileRadar(ItemGroup itemGroup, ItemStack[] recipe) {
         super(itemGroup, new SlimefunItemStack("MISSILERADAR", Material.GRAY_WOOL, ChatColor.YELLOW +Translations.get("radar.name"), ChatColor.GRAY+Translations.get("radar.lore")), RecipeType.ENHANCED_CRAFTING_TABLE, recipe);

@@ -42,6 +42,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.UUID;
 
+@SuppressWarnings("deprecation")
 public class AntiElytraLauncher extends SlimefunItem{
     public final int range = 490000;
 
